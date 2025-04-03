@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Redirect</title>
+    <script>
+        // Function to handle redirection after clicking the Telegram link
+        function redirectToWebsite() {
+            // Replace 'https://www.example.com' with your target website URL
+            window.location.href = "https://www.example.com";
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome to the Redirect Page</h1>
+    <p>Click the link below to open Telegram and then get redirected to the website.</p>
+
+    <!-- Telegram Link -->
+    <a href="https://t.me/your_telegram_channel_or_bot" 
+       target="_blank" 
+       onclick="redirectToWebsite()">
+        Click here to open Telegram
+    </a>
+</body>
+</html>
